@@ -31,6 +31,11 @@
 <h3><c:out value="${title}"/></h3>
 <form action="${action}" method="post" name="detail">
 <table>
+	<c:if test="${param.mode == 'add'}">
+	<tr>
+		<td colspan="2">Please ensure that the code is not already in use.</td>
+	</tr>
+	</c:if>
     <tr>
         <td>Code:</td>
         <td><input name="code" value="${param.code}"<c:out value="${keyreadonly}"/>/></td>
