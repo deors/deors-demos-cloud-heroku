@@ -40,7 +40,7 @@
           class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
         <property name="annotatedClasses">
             <list>
-                <value>deors.cloud.heroku.entities.CodesImpl</value>
+                <value>deors.demos.cloud.heroku.entities.CodesImpl</value>
             </list>
         </property>
         <property name="hibernateProperties">
@@ -52,14 +52,14 @@
         </property>
     </bean>
 
-    <bean id="codes" class="deors.cloud.heroku.entities.CodesImpl" />
+    <bean id="codes" class="deors.demos.cloud.heroku.entities.CodesImpl" />
 
-    <context:component-scan base-package="deors.cloud.heroku.repositories">
+    <context:component-scan base-package="deors.demos.cloud.heroku.repositories">
         <context:include-filter type="annotation"
                                 expression="org.springframework.stereotype.Repository" />
     </context:component-scan>
 
-    <context:component-scan base-package="deors.cloud.heroku.services">
+    <context:component-scan base-package="deors.demos.cloud.heroku.services">
         <context:include-filter type="annotation"
                                 expression="org.springframework.stereotype.Service" />
     </context:component-scan>

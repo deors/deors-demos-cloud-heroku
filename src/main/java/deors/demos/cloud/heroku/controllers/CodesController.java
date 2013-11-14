@@ -1,4 +1,4 @@
-package deors.cloud.heroku.controllers;
+package deors.demos.cloud.heroku.controllers;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
@@ -6,12 +6,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-import deors.cloud.heroku.entities.Codes;
-import deors.cloud.heroku.services.CodesService;
+import deors.demos.cloud.heroku.entities.Codes;
+import deors.demos.cloud.heroku.services.CodesService;
 
 import java.util.Collection;
 

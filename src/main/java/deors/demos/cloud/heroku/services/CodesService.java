@@ -1,9 +1,9 @@
-package deors.cloud.heroku.services;
+package deors.demos.cloud.heroku.services;
 
 import java.util.Collection;
 
-import deors.cloud.heroku.entities.Codes;
-import deors.cloud.heroku.repositories.CodesDAO;
+import deors.demos.cloud.heroku.entities.Codes;
+import deors.demos.cloud.heroku.repositories.CodesDAO;
 
 public interface CodesService {
 

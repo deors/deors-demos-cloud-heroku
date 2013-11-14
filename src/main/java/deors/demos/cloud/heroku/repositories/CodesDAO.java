@@ -1,8 +1,8 @@
-package deors.cloud.heroku.repositories;
+package deors.demos.cloud.heroku.repositories;
 
 import java.util.Collection;
 
-import deors.cloud.heroku.entities.Codes;
+import deors.demos.cloud.heroku.entities.Codes;
 
 public interface CodesDAO {
 

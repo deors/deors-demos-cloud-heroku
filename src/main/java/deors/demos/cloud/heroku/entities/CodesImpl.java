@@ -1,4 +1,4 @@
-package deors.cloud.heroku.entities;
+package deors.demos.cloud.heroku.entities;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

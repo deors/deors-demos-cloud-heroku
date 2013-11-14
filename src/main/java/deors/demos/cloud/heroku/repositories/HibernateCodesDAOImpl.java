@@ -1,12 +1,12 @@
-package deors.cloud.heroku.repositories;
+package deors.demos.cloud.heroku.repositories;
 
 import java.util.Collection;
 
 import org.springframework.orm.hibernate3.HibernateTemplate;
 import org.springframework.stereotype.Repository;
 
-import deors.cloud.heroku.entities.Codes;
-import deors.cloud.heroku.entities.CodesImpl;
+import deors.demos.cloud.heroku.entities.Codes;
+import deors.demos.cloud.heroku.entities.CodesImpl;
 
 @Repository("codesDAO")
 public class HibernateCodesDAOImpl

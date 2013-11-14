@@ -1,4 +1,4 @@
-package deors.cloud.heroku.services;
+package deors.demos.cloud.heroku.services;
 
 import java.util.Collection;
 
@@ -6,8 +6,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import deors.cloud.heroku.entities.Codes;
-import deors.cloud.heroku.repositories.CodesDAO;
+import deors.demos.cloud.heroku.entities.Codes;
+import deors.demos.cloud.heroku.repositories.CodesDAO;
 
 @Service("codesService")
 @Transactional
