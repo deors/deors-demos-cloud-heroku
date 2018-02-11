@@ -5,12 +5,13 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <name>deors.demos.cloud.heroku</name>
-
     <groupId>deors.demos</groupId>
-    <artifactId>deors.demos.cloud.heroku</artifactId>
+    <artifactId>deors-demos-cloud-heroku</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
+
+    <name>deors-demos-cloud-heroku</name>
+    <description>Demonstration of a simple Java web application deployed on Heroku Cedar stack</description>
 
     <properties>
         <project.build.sourceEncoding>ISO-8859-1</project.build.sourceEncoding>
